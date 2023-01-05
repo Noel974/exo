@@ -11,7 +11,7 @@ root.title('Pierre feuille Ciseaux')
 root.config(bg ='RED')
 
 #Titre
-Label(root, text="pierre, feuille, ciseaux", font="arial 20 bold",).pack()
+Label(root, text="Pierre, Feuille, Ciseaux", font="arial 20 bold",).pack()
 
 #Fonction du joueur
 user_take = StringVar()
@@ -45,9 +45,9 @@ def play():
       elif user_pick =='Ciseaux' and comp_pick =='Pierre':
          Result.set('Vous avez perdu, Ia a selectienner Pierre')
       elif user_pick =='Ciseaux' and comp_pick =='Papier':
-         Result.set('Vous avez gagné, Ia a selectienner paiper')
+         Result.set('Vous avez gagné, Ia a selectienner Papier')
       else:
-         Result.set('invalide : choisissez -- Pierre, Papier, ciseaux')
+         Result.set('invalide : choisissez -- Pierre, Papier, Ciseaux')
 
 
 # Fonction de réinitialiser
