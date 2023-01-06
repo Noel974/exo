@@ -5,7 +5,7 @@ site Python.org
 test ('hello tous le monde')
 
 lancer l'application du (main.py)
-<img src='../assets/img/demare.jpg)
+<img src='./assets/img/demare.jpg)
 et cliquer sur le bouton demerrage
 langange python 
   site web utlise 
