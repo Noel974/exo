@@ -23,14 +23,22 @@ Pour le test on va réalisé
 	- Quitter
 ## Fonction 
 La Fonction du jeux se trouve de  la ligne 30 à 50
-Elle est écrite de cette façon 
+On utilise une structure conditionnelles pour si faire La condition utilisé est la suivante  if…elif…else (« si…sinon si…sinon ») 
+Dans la fonction Je mentionne les deux partie IA(ordinateur) et User(Le joueur)
+
+
 
 
 ## Lancement du jeux 
 <img src="img/dem.png">
 Pour lancer le jeux cliquer sur demarrage 
+
+
 ## Jeux 
+Petit extrai du jeux qui s'ouvre en version desckop
 <img src="img/pfc.gif">
+
+
 ## Site utilise
 Retrouver les sites utilsé pour se documenter
 Couleur
