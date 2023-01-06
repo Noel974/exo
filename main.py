@@ -7,15 +7,15 @@ import random
 root = Tk()
 root.geometry('400x400')
 root.resizable(0,0)
-root.title('Pierre feuille Ciseaux')
+root.title('Pierre Papier Ciseaux')
 root.config(bg ='RED')
 
 #Titre
-Label(root, text="Pierre, Feuille, Ciseaux", font="arial 20 bold",).pack()
+Label(root, text="Pierre, Papier, Ciseaux", font="arial 20 bold",).pack()
 
 #Fonction du joueur
 user_take = StringVar()
-Label(root,text="choisir entre: Pierre, Feuille, Ciseaux", font="arial 15 bold", bg="seashell2").place(x =20,y=70)
+Label(root,text="choisir entre: Pierre, Papier, Ciseaux", font="arial 15 bold", bg="seashell2").place(x =20,y=70)
 Entry(root, font="arial 15", textvariable=user_take, bg="antiquewhite2").place(x=90,y=130)
 
 #Fonction de l'Ia 
@@ -23,7 +23,7 @@ comp_pick = random.randint(1,3)
 if comp_pick == 1:
     comp_pick="Pierre"
 elif comp_pick ==2:
-    comp_pick="Feuille"
+    comp_pick="Papier"
 else:
     comp_pick="Ciseaux"
 
@@ -34,8 +34,8 @@ def play():
       user_pick = user_take.get()
       if user_pick == comp_pick:
          Result.set('vous sélectionnez tous les deux le même')
-      elif user_pick =='Pierre' and comp_pick =='Feuille':
-         Result.set('Vous avez perdu, Ia a selectienner Feuille')
+      elif user_pick =='Pierre' and comp_pick =='Papier':
+         Result.set('Vous avez perdu, Ia a selectienner Papier')
       elif user_pick =='Pierre' and comp_pick =='Ciseaux':
          Result.set('Vous avez gagné, Ia a selectienner Ciseaux')
       elif user_pick =='Papier' and comp_pick =='Ciseaux':
