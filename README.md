@@ -42,12 +42,12 @@ Petit extrai du jeux qui s'ouvre en version desckop
 ## Site utilise
 Retrouver les sites utilsé pour se documenter
 Couleur
-[Documentation](https://www.plus2net.com/python/tkinter-colors.php)
+[Documentation Couleur ](https://www.plus2net.com/python/tkinter-colors.php)
 Tk (Tkinter)
 Interface graphique Python
-[Documentation](https://python.doctor/page-tkinter-interface-graphique-python-tutoriel)
-[Documentation](https://waytolearnx.com/2020/06/label-tkinter-python-3.html)
-[Documentation](http://tkinter.fdex.eu/doc/labw.html)
-[Documentation](https://www.askpython.com/python-modules/tkinter/stringvar-with-examples)
+[Documentation Interface](https://python.doctor/page-tkinter-interface-graphique-python-tutoriel)
+[Documentation Interface 1](https://waytolearnx.com/2020/06/label-tkinter-python-3.html)
+[Documentation Inteface 2](http://tkinter.fdex.eu/doc/labw.html)
+[Documentation Interface 3](https://www.askpython.com/python-modules/tkinter/stringvar-with-examples)
 T'autre site sont utiliser comme staroverflow ...
 
