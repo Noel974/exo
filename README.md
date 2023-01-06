@@ -21,11 +21,16 @@ Pour le test on va réalisé
 	- Lancement du jeux 
 	- Jeux 
 	- Quitter
+## Fonction 
+La Fonction du jeux se trouve de  la ligne 30 à 50
+Elle est écrite de cette façon 
 
-## Fonction
-<img src="img/dem.png" width="90px">
+
+## Lancement du jeux 
+<img src="img/dem.png">
 Pour lancer le jeux cliquer sur demarrage 
-
+## Jeux 
+<img src="img/pfc.gif">
 ## Site utilise
 Retrouver les sites utilsé pour se documenter
 Couleur
